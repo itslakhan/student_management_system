@@ -13,11 +13,11 @@
         @csrf
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Branch short  Name</label>
-          <input type="text" class="form-control" name="Sname"aria-describedby="emailHelp">
+          <input type="text" class="form-control" name="Sname"aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Branch full  Name</label>
-            <input type="text" class="form-control" name="Fname"  aria-describedby="emailHelp">
+            <input type="text" class="form-control" name="Fname"  aria-describedby="emailHelp" required>
           </div> 
 
       
