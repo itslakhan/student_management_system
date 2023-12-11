@@ -13,7 +13,7 @@
       <form action="{{ route('Branchupdate',['id'=>$Branches->id]) }}" method="POST">
         @csrf
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Branches short  Name</label>
+          <label for="exampleInputEmail1" class="form-label">Branch short  Name</label>
           <input type="text" class="form-control"  value="{{ $Branches->bsort }}" name="Sname"aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
