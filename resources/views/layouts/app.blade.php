@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Modernize Free</title>
+  <title>Student Management System </title>
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <link rel="shortcut icon" type="{{ asset('image/png') }}" href="{{ asset('assets/images/logos/favicon.png') }}"/>
@@ -24,7 +24,7 @@
     <!--  Main wrapper -->
 
 
-    
+
 
       {{-- <!--  Header Start -->
           <x-header />
