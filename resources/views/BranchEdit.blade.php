@@ -8,7 +8,7 @@
   
   <div class="row">
 
-    <div class="col-md-6 mx-auto mt-3">
+    <div class="col-md-6 mx-auto mt-6">
       <h1>Edit Branch  </h1>
       <form action="{{ route('Branchupdate',['id'=>$Branches->id]) }}" method="POST">
         @csrf
